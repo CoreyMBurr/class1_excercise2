@@ -1,0 +1,89 @@
+body {
+	font-family: arial;
+	font-size: 30px;
+	margin: 0px;
+	color: gray;
+}
+
+div.container {
+	margin: 8px;
+
+}
+div.navigation p {
+		color: gray;
+		text-transform: uppercase;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-weight: bold;
+
+}
+	
+div.ipsum_container {
+	margin-top: 0px; 
+
+}
+
+.anvil-container img {
+	display: none;
+
+}
+
+div.ipsum_container p {
+		margin-top: 8px;
+		margin-bottom: 40px; 
+
+}
+
+p.ipsum {
+	font-size: .4em;
+	margin: 0px;
+
+}
+
+@media all and (min-width: 1192px) {
+
+	div.container {
+		margin: 15px;
+
+	}
+	
+	div.inline-nav div{
+		display: inline;
+
+	}
+
+	div.navigation {
+		color: gray;
+		text-transform: uppercase;
+		margin: 0 auto;
+		padding: 20px;
+		font-weight: bold;
+
+	}
+
+	div.navigation p {
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+
+	}
+
+	.anvil-container {
+/*		position: relative;
+*/		margin: 0 auto;
+		width: 1170px;
+		height: 600px;
+
+	}
+
+	.anvil-container img {
+		display: table-cell;
+   		vertical-align: middle;
+		height:200px;
+		width:200px;
+		width: 100%;
+		height: 600px;
+
+	}
+
+}
